@@ -1,0 +1,67 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: no-repeat;
+    background-image: linear-gradient(125deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(255, 0, 0, 1) 15%, rgba(255, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 70%, rgba(0, 0, 0, 1) 70%);
+}
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: thedark;
+    src: url(/ACDCRessources/fonts/TheDark.ttf)
+}
+
+@font-face {
+    font-family: hard_rock;
+    src: url(/ACDCRessources/fonts/HARD_ROCK.ttf);
+}
+
+@font-face {
+    font-family: rockcrazy;
+    src: url(/ACDCRessources/fonts/rocknroll_typo_crazy.ttf);
+}
+
+nav,
+h2 {
+    font-family: thedark!important;
+}
+a {
+    font-family: thedark!important;
+}
+nav {
+    background-color: #212529;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+figcaption {
+    font-size: 1.2em !important;
+}
+
+#btn {
+    font-family: rockcrazy!important;
+}
+
+.carousel {
+    opacity: 1;
+}
+::placeholder {
+    color: red!important;
+    font-family: hard_rock!important;
+}
+h2 {
+    font-family: thedark!important;
+}
